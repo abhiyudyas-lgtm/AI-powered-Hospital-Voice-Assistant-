@@ -106,7 +106,9 @@ ngrok http 5000
 
 To verify that the Twilio integration and call workflow are working correctly, run the test script:
 
+```bash
 python test_call.py
+```
 
 The script initiates a test call using your configured Twilio credentials and phone numbers.
 
